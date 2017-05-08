@@ -1,6 +1,6 @@
-FROM jenkins:1.554.3
-MAINTAINER iamseapy@gmail.com
-ENV REFRESHED_AT 2014-07-25
+FROM jenkins:alpine
+MAINTAINER datamaker@urbanbase.com
+ENV REFRESHED_AT 2017-05-08
 
 # jenkins 이미지에서 user를 jenkins 로 바꾸고 있어서 다시 root로 변경
 USER root
